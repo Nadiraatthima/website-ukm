@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UNIT KEGIATAN MAHASISWA UNIVERSITAS pamulang</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .gallery iframe {
+            width: 200px;
+            height: 150px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo.jpeg" alt="Logo UKM">
+            <h1>UNIT KEGIATAN MAHASISWA UNIVERSITAS pamulang</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#profile">Profile UKM</a></li>
+                <li><a href="#gallery">Gallery Kegiatan</a></li>
+                <li><a href="#register">Pendaftaran</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+
+        <div class="profile">
+            <h2>Profile UKM</h2>
+            <ul>
+                <li>
+                    <h3>Kemenian Tari</h3>
+                    <p>Deskripsi kesenian tari Kesenian Tari adalah cabang dari kegiatan mahasiswa yang berfokus pada pengembangan dan pelestarian seni budaya Indonesia, khususnya dalam bidang tari.</p>
+                    <a href="#kesenian-tari">Lihat Detail</a>
+                </li>
+                <li>
+                    <h3>Pencak Silat</h3>
+                    <p>Pencak Silat adalah seni bela diri tradisional Indonesia yang mengombinasikan gerakan fisik, strategi, dan mental untuk mencapai kemenangan. Dalam UKM Pencak Silat, mahasiswa dapat mempelajari dan mengembangkan keterampilan dalam seni bela diri ini.</p>
+                    <a href="#pencak-silat">Lihat Detail</a>
+                </li>
+                <li>
+                    <h3>Teater</h3>
+                    <p>Teater adalah seni peran yang melibatkan aktor, penulis, dan teknisi untuk menciptakan sebuah cerita yang dapat dilihat dan didengar. Dalam UKM Teater, mahasiswa dapat mempelajari dan mengembangkan keterampilan dalam seni peran ini.</p>
+                    <a href="#teater">Lihat Detail</a>
+                </li>
+                <li>
+                    <h3>Band</h3>
+                    <p>Band adalah grup musik yang terdiri dari beberapa anggota yang bermain alat musik untuk menciptakan sebuah lagu. Dalam UKM Band, mahasiswa dapat mempelajari dan mengembangkan keterampilan dalam seni musik ini.</p>
+                    <a href="#band">Lihat Detail</a>
+                </li>
+                <li>
+                    <h3>Debat</h3>
+                    <p>Debat adalah seni berbicara yang melibatkan argumen dan logika untuk mempertahankan suatu pendapat. Dalam UKM Debat, mahasiswa dapat mempelajari dan mengembangkan keterampilan dalam seni berbicara ini.</p>
+                    <a href="#debat">Lihat Detail</a>
+                </li>
+                <li>
+                    <h3>Seni Rupa</h3>
+                    <p>Seni Rupa adalah seni visual yang melibatkan lukisan, skulptur, dan fotografi untuk menciptakan sebuah karya seni. Dalam UKM Seni Rupa, mahasiswa dapat mempelajari dan mengembangkan keterampilan dalam seni visual ini.</p>
+                    <a href="#seni-rupa">Lihat Detail</a>
+                </li>
+                <li>
+                    <h3>Photography</h3>
+                    <p>Photography adalah seni visual yang melibatkan pengambilan gambar untuk menciptakan sebuah karya seni. Dalam UKM Photography, mahasiswa dapat mempelajari dan mengembangkan keterampilan dalam seni visual ini.</p>
+                    <a href="#photography">Lihat Detail</a>
+                </li>
+            </ul>
+        </div>
+        <div class="gallery">
+            <h2>Gallery Kegiatan</h2>
+            <img src="kegiatan1.jpeg" alt="Kegiatan 1">
+            <img src="kegiatan2.jpeg" alt="Kegiatan 2">
+            <img src="kegiatan3.jpeg" alt="Kegiatan 3">
+            <img src="kegiatan4.jpeg" alt="Kegiatan 4">
+            <img src="kegiatan5.jpg" alt="Kegiatan 5">
+            <img src="kegiatan6.jpeg" alt="Kegiatan 6">
+            
+        </div>
+        <div class="registration">
+            <h2>Pendaftaran</h2>
+            <form>
+                <label for="nim">NIM:</label>
+                <input type="text" id="nim" name="nim"><br><br>
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama"><br><br>
+                <label for="jenis_kelamin">Jenis Kelamin:</label>
+                <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki">
+                <label for="laki-laki">Laki-laki</label>
+                <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+                <label for="perempuan">Perempuan</label><br><br>
+                <label for="program_studi">Program Studi:</label>
+                <select id="program_studi" name="program_studi">
+                    <option value="Teknik Informatika">Teknik Informatika</option>
+                    <option value="Sistem Informasi">Sistem Informasi</option>
+                    <!-- tambahkan program studi lainnya -->
+                </select><br><br>
+                <label for="ukm">UKM yang akan diikuti:</label>
+                <select id="ukm" name="ukm">
+                    <option value="Kemenian Tari">Kemenian Tari</option>
+                    <option value="Pencak Silat">Pencak Silat</option>
+                    <option value="Teater">Teater</option>
+                    <option value="Band">Band</option>
+                    <option value="Debat">Debat</option>
+                    <option value="Seni Rupa">Seni Rupa</option>
+                    <option value="Photography">Photography</option>
+                    <!-- tambahkan UKM lainnya -->
+                </select><br><br>
+                <label for="hari_kegiatan">Pilihan Hari Kegiatan:</label>
+                <input type="checkbox" id="senin" name="hari_kegiatan" value="senin">
+                <label for="senin">Senin</label>
+                <input type="checkbox" id="selasa" name="hari_kegiatan" value="selasa">
+                <label for="selasa">Selasa</label>
+                <input type="checkbox" id="rabu" name="hari_kegiatan" value="rabu">
+                <label for="rabu">Rabu</label>
+                <input type="checkbox" id="kamis" name="hari_kegiatan" value="kamis">
+                <label for="kamis">Kamis</label>
+                <input type="checkbox" id="jumat" name="hari_kegiatan" value="jumat">
+                <label for="jumat">Jumat</label><br><br>
+                <input type="submit" value="Simpan">
+                <input type="reset" value="Batal">
+            </form>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>Alamat: Universitas ABC, Jl. ABC, Surabaya</p>
+        <p>Telepon: 031-1234567</p>
+        <p>Email: [info@univabc.ac.id](mailto:info@univabc.ac.id)</p>
+    </section>
+
+        <div class="footer">
+            <p>&copy; 2024 UNIT KEGIATAN MAHASISWA UNIVERSITAS pamulang</p>
+        </div>
+    </div>
+</body>
+</html>
